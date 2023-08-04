@@ -89,7 +89,4 @@ public class AlternatingDigitSum {
 		return total;
 		
 	}
-	
-	
-
 }
