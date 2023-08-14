@@ -6,6 +6,29 @@ import junit.framework.Assert;
 
 public class CountofCapitalLetters {
 	
+	/*
+	 * Understood the Problem - Yes
+	 * 
+	 * TestData
+	 * 1. Input - ILoveIndia
+	 * 	  Output - 3
+	 * 2. Input - smallcase
+	 * 	  Output - 0
+	 * 3. Input - Test@123
+	 * 	  Output - 1
+	 * 
+	 * 
+	 * Pseudo code
+	 * Get the input as String 
+	 * Initialize count variable as 0
+	 * Iterate the for loop and store the each character of a string
+	 * now convert the char to int
+	 * Use if condition and check the ascii value of each character 
+	 * ASCII value should be in the range of >=65 & <=90 then increment the counter vaiable
+	 * return count
+	 */
+
+	
 	@Test
 	public void test1()
 	{
