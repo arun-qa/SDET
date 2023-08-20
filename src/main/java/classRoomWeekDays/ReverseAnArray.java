@@ -1,4 +1,4 @@
-package classRoomWeekDays;
+package mandatoryHomeWork.MentorClassroomSession;
 
 import static org.junit.Assert.assertArrayEquals;import java.util.Arrays;
 

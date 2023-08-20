@@ -1,4 +1,4 @@
-package classRoomWeekDays;
+package mandatoryHomeWork.MentorClassroomSession;
 
 import org.junit.Test;
 

@@ -1,4 +1,4 @@
-package classRoomWeekDays;
+package mandatoryHomeWork.MentorClassroomSession;
 
 public class CountNumberofOccurrencesinaSortedArray {
 	// Given a sorted array arr[] and a number x, 

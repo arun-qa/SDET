@@ -1,4 +1,4 @@
-package classRoomWeekDays;
+package mandatoryHomeWork.MentorClassroomSession;
 
 public class Print0to99 {
 

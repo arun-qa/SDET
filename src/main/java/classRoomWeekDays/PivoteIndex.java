@@ -1,10 +1,19 @@
-package classRoomWeekDays;
+package mandatoryHomeWork.MentorClassroomSession;
 
 import org.junit.Test;
 
 import junit.framework.Assert;
 
 public class PivoteIndex {
+	
+
+/*- intialize two variables - sumleft=0, sumright=0
+- Iterate for loop till length of the given array
+- Iterate one more for loop to compare the left index and right index
+- if(j<i) sumleft = sumleft + nums[j];
+- else if(j>i) sumright = sumright + nums[j];
+- Compare sumleft and sumright, if both are equal return i;
+- else return -1;*/
 	
 	@Test
 	public void test1()
