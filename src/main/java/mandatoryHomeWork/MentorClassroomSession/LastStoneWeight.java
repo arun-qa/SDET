@@ -21,6 +21,9 @@ public class LastStoneWeight {
 	 * Add the subracted value to Array list
 	 * Check if arraylist becomes empty then return 0
 	 * else return the 0th index value of array list
+	 * 
+	 * 
+	 * Time Complexity = O(n) * O(n log n) = O(n^2 log n)
 	 */
 	
 	
@@ -53,9 +56,9 @@ public class LastStoneWeight {
 	           obj.add(stones[i]);
 		 }
 		 
-		 while(obj.size()>1)
+		 while(obj.size()>1) //O(n)
 		 {
-		 Collections.sort(obj);
+		 Collections.sort(obj); //O(n log n)
 		 
 		 int biggeststone = obj.get(obj.size()-1);
 		 int secondbiggeststone = obj.get(obj.size()-2);
