@@ -12,7 +12,7 @@ public class Jira_CreateNewStory {
 		
 		ChromeDriver driver = new ChromeDriver();
 		
-		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(2000));
 		
 		driver.get("https://api-training.atlassian.net/");
 		
@@ -27,6 +27,8 @@ public class Jira_CreateNewStory {
 		driver.findElement(By.xpath("//span[text()='Log in']")).click();
 		
 		driver.findElement(By.xpath("//p[text()='SDET-5']")).click();
+		
+		//driver.findElement(By.xpath("//span[text()='Create']")).click();
 		
 		driver.findElement(By.xpath("//span[text()='Create']")).click();
 		
