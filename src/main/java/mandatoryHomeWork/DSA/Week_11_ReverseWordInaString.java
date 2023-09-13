@@ -8,6 +8,20 @@ import junit.framework.Assert;
 
 public class Week_11_ReverseWordInaString {
 	
+	//https://leetcode.com/problems/reverse-words-in-a-string-iii/
+	
+	/* Pseudocode
+	 * Get an input as String an Output as an String
+	 * Split the String and store it in String[]
+	 * Iterate each string from String[] using for each loop
+	 * Reverse the string and store in sb
+	 * append the string with new sb
+	 * return the new sb after changing it as string
+	 * 
+	 * 
+	 * Time Complexity O(n)
+	 */
+	
 	@Test
 	public void test1()
 	{
@@ -28,7 +42,7 @@ public class Week_11_ReverseWordInaString {
 
 			String[] s1 = s.split(" ");
 			
-			for (String s2 : s1) {
+			for (String s2 : s1) { //O(n)
 				
 				StringBuilder sb = new StringBuilder(s2);
 				
