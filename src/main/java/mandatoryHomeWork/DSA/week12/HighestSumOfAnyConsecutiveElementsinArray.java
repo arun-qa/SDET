@@ -1,4 +1,4 @@
-package mandatoryHomeWork.DSA;
+package mandatoryHomeWork.DSA.week12;
 
 import org.junit.Test;
 
@@ -19,7 +19,7 @@ public class HighestSumOfAnyConsecutiveElementsinArray {
         // not needed second pointer as this is balanced traversal ,right = k-1;
         //2. Do the required operation till k index
         while(pointer < k)
-            currentSum += nums[pointer++];
+            currentSum = currentSum + nums[pointer++];
         //3. continue the operation for rest of the array
         while( pointer < nums.length){
             max = Math.max(currentSum, max);
