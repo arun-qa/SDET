@@ -6,7 +6,7 @@ public class Day3_NoofSubstringContainsAllThreeCharacters {
 	 * https://leetcode.com/problems/number-of-substrings-containing-all-three-characters
 	 * Pseudocode
 	 * 
-	 * Get an input as String and output should be int
+	 * Get an input as String and output should be int.
 	 * create integer[] to count values of abc
 	 * create three variable start, end, output
 	 * iterate rightindex till length of the given String and convert the string to char array to find the occurance of a,b,c
