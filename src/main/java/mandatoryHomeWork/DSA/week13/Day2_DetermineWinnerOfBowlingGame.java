@@ -22,7 +22,7 @@ public class Day2_DetermineWinnerOfBowlingGame {
 	@Test
 	public void test1()
 	{
-		Assert.assertEquals(1, isWinner(new int[] {4,10,7,9}, new int[] {6,5,2,3}));
+		Assert.assertEquals(1, isWinner(new int[] {4,10,7,9,5}, new int[] {6,5,2,3,5}));
 	}
 	
 	@Test
