@@ -1,24 +1,13 @@
 package week6;
 
-import org.junit.Test;
+public class Dayofyear {
 
-import junit.framework.Assert;
-
-public class DayOfTheYear {
-	@Test
-	public void test1()
-	{
-		Assert.assertEquals(61, dayoftheyear("2016-03-09"));
-	}
-	
-	@Test
-	public void test2()
-	{
-		Assert.assertEquals(41, dayoftheyear("2019-02-10"));
-	}
-	public int dayoftheyear(String GivenDate)
-	{
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
 		int[] numberOfDays = {31,28,31,30,31,30,31,31,30,31,30,31};
+		
+		String GivenDate = "2019-02-10";
 		
 		int year = Integer.parseInt(GivenDate.substring(0, 4));
 		int month = Integer.parseInt(GivenDate.substring(5, 7));
@@ -33,12 +22,12 @@ public class DayOfTheYear {
 		
 		if((month>2) && (year%4==0) && (year % 100 != 0 || year%400==0))
 		{
-			return days+date+1;
+			System.out.println(days+date+1);
 		}
 		
 		else
-			return days+date;
-		
+			System.out.println(days+date);
+
 	}
 
 }
