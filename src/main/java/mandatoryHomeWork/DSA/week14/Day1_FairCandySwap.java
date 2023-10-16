@@ -9,7 +9,7 @@ public class Day1_FairCandySwap {
 
 		int totalAlliceCandy = 0;
 		int totalBobCandy  = 0;
-		Set<Integer> set = new HashSet<>();
+		Set<Integer> set = new HashSet<Integer>();
 		for (Integer a : aliceSizes) { // O[N]
 			totalAlliceCandy += a;
 		}

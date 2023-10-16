@@ -24,7 +24,7 @@ public class Day3_SumOfUniqueElements {
 
 		System.out.println(Arrays.toString(nums));
 
-		HashSet<Integer> set = new HashSet<>();
+		HashSet<Integer> set = new HashSet<Integer>();
 
 		int count = 0;
 

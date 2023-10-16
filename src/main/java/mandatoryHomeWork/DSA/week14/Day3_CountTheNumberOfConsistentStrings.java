@@ -25,7 +25,7 @@ public class Day3_CountTheNumberOfConsistentStrings {
 		//boolean flag = true;
 		int count = 0;
 		
-		HashSet<Character> set = new  HashSet<>();
+		HashSet<Character> set = new  HashSet<Character>();
 		
 		for (Character ch : allowed.toCharArray()) {
 			

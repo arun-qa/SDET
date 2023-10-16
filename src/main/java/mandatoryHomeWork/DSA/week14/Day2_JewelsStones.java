@@ -21,7 +21,7 @@ public class Day2_JewelsStones {
 		String stones = "aAAbbbb";
 		int count = 0;
 
-		HashMap<Character, Integer> map = new HashMap<>();
+		HashMap<Character, Integer> map = new HashMap<Character,Integer>();
 
 		for (int i = 0; i < stones.length(); i++) {
 			if (map.containsKey(stones.charAt(i))) {
